@@ -36,6 +36,8 @@ FitTrack is a web-based fitness tracking application that helps users **log work
 - **TailwindCSS**
 - **Recharts (Data Visualization)**
 - **Firebase (Auth, Firestore)**
+- **React Query (Data Fetching & Caching)**
+- **Jest & Cypress (Testing)**
 
 ## 🎨 UI Screenshots
 | Dashboard | Progress Charts |
