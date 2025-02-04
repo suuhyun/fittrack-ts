@@ -3,6 +3,8 @@
 FitTrack is a web-based fitness tracking application that helps users **log workouts, track progress, and set goals**. Built with **React, TypeScript, Vite, Firebase, and TailwindCSS**, it provides an intuitive and interactive experience for users to monitor their fitness journey.
 
 ---
+### 🔗 Live Demo
+**[FitTrack - Live App](https://fittrack-hreca6l4k-suhyuns-projects-3e948b13.vercel.app/sign-in)**
 
 ## 🚀 Features
 
@@ -21,7 +23,6 @@ FitTrack is a web-based fitness tracking application that helps users **log work
 ### 🎯 **Goal Management**
 - Set **weekly fitness goals** (workouts per week, active minutes, calories).
 - Track goal completion percentage.
-- Add **custom personal goals** (e.g., "Go for a run in the park", "Eat a healthy meal").
 
 ### 🔒 **User Authentication**
 - **Sign up & Log in** using Firebase Authentication.
