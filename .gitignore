@@ -1,0 +1,64 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# Dependencies
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+*.local
+
+# Editor directories and files
+.vscode/
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Environment files
+.env
+.env.*.local
+.vite-env.d.ts
+
+# Cypress
+.cypress/
+cypress/screenshots/
+cypress/videos/
+cypress/downloads/
+
+# Test files and mock data
+src/__tests__/
+src/__mocks__/
+
+# React-query (if it contains temporary data)
+src/react-query/cache/
+
+# Cache files
+.cache/
+temp/
+tmp/
+
+# ESLint
+eslintcache
+
+# Tailwind
+.tailwind/
+
+# TypeScript
+*.tsbuildinfo
+tsconfig.tsbuildinfo
+
+# Package lock files
+package-lock.json
+
