@@ -93,7 +93,7 @@ const SigninForm = () => {
               <FormItem>
                 <FormLabel>Password</FormLabel>
                 <FormControl>
-                  <Input type="password" {...field} />
+                  <Input data-testid="password-input" type="password" {...field} />
                 </FormControl>
                 <FormMessage />
               </FormItem>
