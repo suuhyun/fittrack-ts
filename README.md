@@ -4,7 +4,7 @@ FitTrack is a web-based fitness tracking application that helps users **log work
 
 ---
 ### 🔗 Live Demo
-**[FitTrack - Live App](https://fittrack-hreca6l4k-suhyuns-projects-3e948b13.vercel.app/sign-in)**
+**[FitTrack - Live App]([https://fittrack-hreca6l4k-suhyuns-projects-3e948b13.vercel.app/sign-in](https://fittrack-hreca6l4k-suhyuns-projects-3e948b13.vercel.app/sign-in))**
 
 ## 🚀 Features
 
