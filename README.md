@@ -1,50 +1,42 @@
-# React + TypeScript + Vite
+# 🏋️‍♂️ FitTrack - Personal Fitness Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+FitTrack is a web-based fitness tracking application that helps users **log workouts, track progress, and set goals**. Built with **React, TypeScript, Vite, Firebase, and TailwindCSS**, it provides an intuitive and interactive experience for users to monitor their fitness journey.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+### ✅ **Workout Tracking**
+- Log daily workouts with **duration, calories burned, and details**.
+- Mark workouts as **completed** to track progress.
+- Edit or delete logged workouts.
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+### 📊 **Progress Insights**
+- View **weekly progress charts** for:
+  - Active minutes
+  - Calories burned
+  - Total workouts completed
+- Interactive **data visualization with Recharts**.
 
-- Configure the top-level `parserOptions` property like this:
+### 🎯 **Goal Management**
+- Set **weekly fitness goals** (workouts per week, active minutes, calories).
+- Track goal completion percentage.
+- Add **custom personal goals** (e.g., "Go for a run in the park", "Eat a healthy meal").
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+### 🔒 **User Authentication**
+- **Sign up & Log in** using Firebase Authentication.
+- Secure authentication with email/password.
+- Profile management with the ability to **edit profile details** and upload a profile picture.
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+### 🛠 **Built With**
+- **React (TypeScript)**
+- **Vite**
+- **ShadCN UI (Radix UI)**
+- **TailwindCSS**
+- **Recharts (Data Visualization)**
+- **Firebase (Auth, Firestore)**
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+## 🎨 UI Screenshots
+| Dashboard | Progress Charts |
+|-----------|-----------------|
+| ![Dashboard](public/assets/images/dashboard.png) | ![Progress](public/assets/images/progress.png) |
