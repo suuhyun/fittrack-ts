@@ -9,6 +9,7 @@ import Onboarding from "./_root/pages/OnBoarding/OnBoarding";
 import ProgressPage from "./_root/pages/Progress/ProgressPage";
 import Profile from "./_root/pages/Profile/Profile";
 import WorkoutPage from "./_root/pages/Workout/WorkoutPage";
+import "./index.css";
 
 function App() {
   return (

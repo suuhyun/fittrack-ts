@@ -25,7 +25,7 @@ const TodaysWorkout = () => {
           ) : isError ? (
             <div className="text-center text-red-500">Failed to load workouts. Please try again.</div>
           ) : workouts?.length === 0 ? (
-            <div className="text-center py-10">
+            <div className="text-center py-16">
               <p className="text-gray-500 text-lg">No workouts logged for today!</p>
               <p className="text-gray-400 text-sm">Start fresh and add your first workout now.</p>
             </div>

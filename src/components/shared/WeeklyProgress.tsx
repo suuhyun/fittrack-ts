@@ -16,10 +16,10 @@ const WeeklyProgress = () => {
 
   return (
     <Card className="w-full lg:basis-1/3 p-6 border-0 h-full">
-      <header className="flex items-center justify-between mb-6">
+      <header className="flex items-center justify-between mb-8">
         <h2 className="text-2xl font-bold">Weekly Progress</h2>
       </header>
-      <div className="flex flex-col gap-5 mb-6">
+      <div className="flex flex-col gap-5 mb-9">
         <Progressbar
           title="Weekly Sessions"
           current={currentWeek.totalWorkouts}
